@@ -2,6 +2,9 @@
 #include <glad.h>
 #include <GLFW/glfw3.h>
 
+//my includes
+#include "shaders/shader.h"
+
 //function prototypes
 //create a callback for window size so we can resize the window easily
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
@@ -40,6 +43,11 @@ int main(void)
     glClearColor(0.5f, 0.1f, 0.1f, 0.1f);
     //set framebuffer size callback
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
+
+    //SHADER SETUP
+    Shader basicShaders("shaders/basic.vert", "shaders/basic.frag");
+
+
 
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window))
