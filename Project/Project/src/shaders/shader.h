@@ -90,6 +90,8 @@ public:
 		//delete the shaders because now we can reference them through the program (hell yeah)
 		glDeleteShader(vertex);
 		glDeleteShader(fragment);
+
+		std::cout << "shaders successfully compiled\n" << std::endl;
 	}
 
 	//activate shader
