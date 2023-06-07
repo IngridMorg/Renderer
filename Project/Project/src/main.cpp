@@ -4,6 +4,7 @@
 
 //my includes
 #include "shaders/shader.h"
+#include <glm\glm.hpp>
 
 //function prototypes
 //create a callback for window size so we can resize the window easily
@@ -38,6 +39,7 @@ int main(void)
         return -1;
     }
     
+
     glViewport(0, 0, 800, 600);
     //set the clear colour
     glClearColor(0.5f, 0.1f, 0.1f, 0.1f);
