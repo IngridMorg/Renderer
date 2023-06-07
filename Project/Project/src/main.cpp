@@ -36,6 +36,8 @@ int main(void)
     }
     
     glViewport(0, 0, 800, 600);
+    //set the clear colour
+    glClearColor(0.5f, 0.1f, 0.1f, 0.1f);
     //set framebuffer size callback
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
