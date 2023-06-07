@@ -3,3 +3,10 @@
 ################################################################################
 
 /.vs
+/Project/.vs/Project/v17
+/Project/Project/x64/Debug
+/Project/thirdParty/GLFW
+*.vcxproj
+/Project/x64/Debug
+*.vcxproj.filters
+*.vcxproj.user
