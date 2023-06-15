@@ -5,7 +5,7 @@
 //my includes
 #include "shaders/shader.h"
 #include <glm\glm.hpp>
-
+#include <assimp/Importer.hpp>
 //function prototypes
 //create a callback for window size so we can resize the window easily
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
