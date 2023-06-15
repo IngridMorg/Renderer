@@ -4,6 +4,7 @@
 
 /.vs
 /Project/.vs/Project/v17
+/Project/.vs/Project/FileContentIndex
 /Project/Project/x64/Debug
 /Project/thirdParty/
 *.vcxproj
